@@ -35,7 +35,7 @@ http://python-packaging.readthedocs.io/en/latest/minimal.html for more informati
 The less standard part of this file is the ``from Cython.Distutils import build_ext`` import.
 This replaces the standard *setuptools* or *distutils* ``build_ext`` command with a version
 that can handle conversion of cython code into standard C code that uses the ``Python.h``
-library and that can be compiled by ``setuptools`.
+library and that can be compiled by ``setuptools``.
 
 This example is simple because the C-function don't take as argument and don't return
 pointers/arrays. If you want to achieve this, you should look at more complicated
