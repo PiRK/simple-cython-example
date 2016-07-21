@@ -31,7 +31,7 @@ The `.pxd` file wraps the .c functions (through their declaration in the .h file
 
 The `setup.py` file is a standard way of building and installing python libraries
 (read https://docs.python.org/3/distutils/setupscript.html or
-http://python-packaging.readthedocs.io/en/latest/minimal.htmlfor more information on this).
+http://python-packaging.readthedocs.io/en/latest/minimal.html for more information on this).
 The less standard part of this file is the `from Cython.Distutils import build_ext` import.
 This replaces the standard *setuptools* or *distutils* `build_ext` command with a version
 that can handle conversion of cython code into standard C code that uses the `Python.h"
