@@ -37,7 +37,7 @@ This replaces the standard *setuptools* or *distutils* ``build_ext`` command wit
 that can handle conversion of cython code into standard C code that uses the ``Python.h``
 library and that can be compiled by ``setuptools``.
 
-This example is simple because the C-function don't take as argument and don't return
+This example is simple because the C-function don't take as argument (and don't return)
 pointers/arrays. If you want to achieve this, you should look at more complicated
 examples using numpy arrays and memory views, such as
-https://github.com/PiRK/silx/blob/specfit/silx/math/fit/functions/functions.pyx.
+https://github.com/silx-kit/silx/blob/master/silx/math/fit/functions.pyx .
